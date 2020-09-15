@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F6E1A1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/Operaciones"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/dato1"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/dato2"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnsumar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sumar"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnrestar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restar"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnrestar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULT"
+            android:textSize="18sp"
+            tools:ignore="DuplicateIds" />
+        <Button
+            android:id="@+id/btnrestar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIV"
+            android:textSize="18sp"
+            tools:ignore="DuplicateIds" />
+        <Button
+            android:id="@+id/btnrestar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MCM"
+            android:textSize="18sp"
+            tools:ignore="DuplicateIds" />
+        <Button
+            android:id="@+id/btnrestar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MCD"
+            android:textSize="18sp"
+            tools:ignore="DuplicateIds" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_delete" />
+    </LinearLayout>
+</LinearLayout>
